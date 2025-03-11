@@ -62,7 +62,9 @@ internal partial class Program
 {
     private static void Main(string[] args)
     {
+        var z = new Morze();
 
+        Console.WriteLine( z.encripter("sos"));
         
 
     }
